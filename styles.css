@@ -1,0 +1,53 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 280px;
+  max-height: 600px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border-color: hsl(220, 15%, 55%);
+}
+
+.container img {
+  position: relative;
+  margin: 15px 15px;
+  height: auto;
+  width: 250px;
+  border-radius: 10px;
+  border-color: hsl(218, 44%, 22%);
+}
+
+.card-text {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card-heading {
+  margin: 0 0 10px;
+  font-size: 20px;
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+  font-weight: 700;
+}
+
+.card-description {
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0 0 35px 0px;
+}
